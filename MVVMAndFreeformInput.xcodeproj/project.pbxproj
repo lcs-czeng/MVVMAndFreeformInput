@@ -12,6 +12,7 @@
 		16696E0D2D94E3A1005676E7 /* MVVMAndFreeformInputApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16696E082D94E3A1005676E7 /* MVVMAndFreeformInputApp.swift */; };
 		16696E0E2D94E3A1005676E7 /* PowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16696E092D94E3A1005676E7 /* PowerView.swift */; };
 		16696E122D94E400005676E7 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16696E112D94E400005676E7 /* Power.swift */; };
+		16696E142D94E44B005676E7 /* PowerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16696E132D94E44B005676E7 /* PowerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		16696E082D94E3A1005676E7 /* MVVMAndFreeformInputApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMAndFreeformInputApp.swift; sourceTree = "<group>"; };
 		16696E092D94E3A1005676E7 /* PowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerView.swift; sourceTree = "<group>"; };
 		16696E112D94E400005676E7 /* Power.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Power.swift; path = /Users/courage/Desktop/Power.swift; sourceTree = "<absolute>"; };
+		16696E132D94E44B005676E7 /* PowerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PowerViewModel.swift; path = /Users/courage/Desktop/PowerViewModel.swift; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		16696E052D94E3A1005676E7 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				16696E132D94E44B005676E7 /* PowerViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16696E142D94E44B005676E7 /* PowerViewModel.swift in Sources */,
 				16696E0D2D94E3A1005676E7 /* MVVMAndFreeformInputApp.swift in Sources */,
 				16696E122D94E400005676E7 /* Power.swift in Sources */,
 				16696E0E2D94E3A1005676E7 /* PowerView.swift in Sources */,
