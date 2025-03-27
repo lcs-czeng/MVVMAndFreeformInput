@@ -30,8 +30,8 @@ class PowerViewModel {
         
         
         
-        guard let base = Double(providedBase), base > 0 else {
-            recoverySuggestion = "Please provide a positive value for the base of the power."
+        guard let base = Double(providedBase) else {
+            recoverySuggestion = "Please provide a numeric value for the base of the power."
             
             return nil
         }
